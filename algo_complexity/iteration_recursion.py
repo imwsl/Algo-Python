@@ -48,3 +48,19 @@ def tail_recur(n, res):
     return tail_recur(n - 1, n + res)
 
 print(tail_recur(10, 0))
+
+# fib
+# [0, 1, 1, 2, 3, 5, 8....]
+def fib(n: int) -> int:
+    if n <= 0:
+        return 0
+    
+    if n == 1 or n == 2:
+        return 1
+    return fib(n - 1) + fib(n - 2)
+
+print(fib(4))
+
+##
+## iteration: simple loop, task...
+## recursion: tree, graphs, divide-and-conquer, backtracking...
