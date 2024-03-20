@@ -27,4 +27,4 @@ def constant(n: int) -> int:
     count = 0
     size = 10000
     for _ in range(size):
-        
+        print(count)
