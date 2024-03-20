@@ -17,3 +17,14 @@ def algo_c(n: int):
 # T(n) = 3 + 2n = O(n)
 #
 
+# O(1) < O(logn) < O(n) < O(nlogn) < O(n^2) < O(2^n) < O(n!)
+# 
+# 
+
+# O(1)
+# example
+def constant(n: int) -> int:
+    count = 0
+    size = 10000
+    for _ in range(size):
+        
